@@ -1,30 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio</title>
+    <title>Portafolio - FotoMontajes</title>
     <link rel="icon" href="../img/comunes/logo.jpg">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../CSS/portafolio.css">
-    <title>Document</title>
 </head>
-<body class="fst-italic portafolio-bg">
-    <!-- Imagen de fondo a pantalla completa -->
-    <div style="
-        position: fixed;
-        top: 0; left: 0; width: 100vw; height: 100vh;
-        z-index: 0;
-        background: url('../img/fondo contac.jpg') no-repeat center center fixed;
-        background-size: cover;
-    ">
+<body>
+    <!-- Header Section -->
+    <div class="portfolio-header">
+        <div class="container">
+            <h1 class="portfolio-title text-center">Portafolio</h1>
+            <p class="portfolio-subtitle text-center">Explora nuestros trabajos más destacados</p>
+        </div>
     </div>
-    <!-- Agrega esto justo después de cerrar el </nav> y antes del <div class="container mt-5"> -->
-<div class="container">
-  <h1 class="portafolio-title text-center my-5 fw-bold" style="letter-spacing:10px; margin-top: 10px;">PORTAFOLIO
-    <h4 class=" portafolio-title text-center my-3 fw-bold">Explora nuestros trabajos más destacados, abre la imagen para ver mas detallado
-  </h1>
-</div>
 
     <!-- Todo tu contenido por encima -->
     <div style="position: relative; z-index: 1;">
@@ -39,155 +31,151 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav ms-auto">
-                            <a class="nav-link text-dark" href="../index.html">Inicio</a>
-                            <a class="nav-link text-dark" aria-current="page" href="./portafolioo.html">Portafolio</a>
-                            <a class="nav-link text-dark" href="./blog.html">Blog</a>
-                            <a class="nav-link text-dark" href="./contacto.html">Contact</a>
-                             <a class="nav-link text-dark" href="./albumes.html">Albumes</a>
-                                <a class="nav-link text-dark" href="./eventos.html">Eventos</a>
+                            <a class="nav-link" href="../index.html">Inicio</a>
+                            <a class="nav-link active" aria-current="page" href="./portafolioo.html">Portafolio</a>
+                            <a class="nav-link" href="./blog.html">Blog</a>
+                            <a class="nav-link" href="./contacto.html">Contacto</a>
+                            <a class="nav-link" href="./albumes.html">Álbumes</a>
+                            <a class="nav-link" href="./eventos.html">Eventos</a>
                         </div>
                     </div>
                 </div>
             </nav>
         </div>
 
-        <div class="container mt-5">
+        <div class="container portfolio-gallery">
             <div class="row">
                 <!-- Galería de imágenes -->
                 <div class="col-6 col-sm-6 col-md-3 my-4">
-                    <div class="card border-0 bg-transparent text-center">
-                        <img src="../img/nuevas/Caballo-6.jpg" class="card-img-top mx-auto" alt="..." style="width: 250px; height: 250px; object-fit: cover;">
+                    <div class="portfolio-card">
+                        <img src="../img/nuevas/Caballo-6.jpg" class="portfolio-image" alt="Fotografía de caballo">
                     </div>
                 </div>
                 <div class="col-6 col-sm-6 col-md-3 my-4">
-                    <div class="card border-0 bg-transparent text-center">
-                        <img src="../img/nuevas/camila 1.jpg" class="card-img-top mx-auto" alt="..." style="width: 250px; height: 250px; object-fit: cover;">
+                    <div class="portfolio-card">
+                        <img src="../img/nuevas/camila 1.jpg" class="portfolio-image" alt="Retrato de Camila">
                     </div>
                 </div>
                 <div class="col-6 col-sm-6 col-md-3 my-4">
-                    <div class="card border-0 bg-transparent text-center">
-                        <img src="../img/nuevas/Caballo-3.jpg" class="card-img-top mx-auto" alt="..." style="width: 250px; height: 250px; object-fit: cover;">
+                    <div class="portfolio-card">
+                        <img src="../img/nuevas/Caballo-3.jpg" class="portfolio-image" alt="Fotografía de caballo">
                     </div>
                 </div>
                 <div class="col-6 col-sm-6 col-md-3 my-4">
-                    <div class="card border-0 bg-transparent text-center">
-                        <img src="../img/15-matri-festi/pamela2.jpg" class="card-img-top mx-auto" alt="..." style="width: 250px; height: 250px; object-fit: cover;">
+                    <div class="portfolio-card">
+                        <img src="../img/15-matri-festi/pamela2.jpg" class="portfolio-image" alt="Retrato de Pamela">
                     </div>
                 </div>
                 <div class="col-6 col-sm-6 col-md-3 my-4">
-                    <div class="card border-0 bg-transparent text-center">
-                        <img src="../img/nuevas/camila 2.jpg" class="card-img-top mx-auto" alt="..." style="width: 250px; height: 250px; object-fit: cover;">
-                    </div>
-                </div>
-                 <div class="col-6 col-sm-6 col-md-3 my-4">
-                    <div class="card border-0 bg-transparent text-center">
-                        <img src="../img/nuevas/alex,yenny.jpg" class="card-img-top mx-auto"alt="..." style="width: 250px; height: 250px; object-fit: cover;">
+                    <div class="portfolio-card">
+                        <img src="../img/nuevas/camila 2.jpg" class="portfolio-image" alt="Retrato de Camila">
                     </div>
                 </div>
                 <div class="col-6 col-sm-6 col-md-3 my-4">
-                    <div class="card border-0 bg-transparent text-center">
-                        <img src="../img/nuevas/Ultima-15.jpg" class="card-img-top mx-auto" alt="..." style="width: 250px; height: 250px; object-fit: cover;">
-                    </div>
-                </div>
-                 <div class="col-6 col-sm-6 col-md-3 my-4">
-                    <div class="card border-0 bg-transparent text-center">
-                        <img src="../img/15-matri-festi/pamela1.jpg" class="card-img-top mx-auto" alt="..." style="width: 250px; height: 250px; object-fit: cover;">
+                    <div class="portfolio-card">
+                        <img src="../img/nuevas/alex,yenny.jpg" class="portfolio-image" alt="Retrato de Alex y Yenny">
                     </div>
                 </div>
                 <div class="col-6 col-sm-6 col-md-3 my-4">
-                    <div class="card border-0 bg-transparent text-center">
-                        <img src="../img/Eventos/comunion1.jpeg" class="card-img-top mx-auto" alt="..." style="width: 250px; height: 250px; object-fit: cover;">
+                    <div class="portfolio-card">
+                        <img src="../img/nuevas/Ultima-15.jpg" class="portfolio-image" alt="Fiesta de 15 años">
                     </div>
                 </div>
                 <div class="col-6 col-sm-6 col-md-3 my-4">
-                    <div class="card border-0 bg-transparent text-center">
-                        <img src="../img/Eventos/comunion2.jpeg" class="card-img-top mx-auto" alt="..." style="width: 250px; height: 250px; object-fit: cover;">
+                    <div class="portfolio-card">
+                        <img src="../img/15-matri-festi/pamela1.jpg" class="portfolio-image" alt="Retrato de Pamela">
                     </div>
                 </div>
                 <div class="col-6 col-sm-6 col-md-3 my-4">
-                    <div class="card border-0 bg-transparent text-center">
-                        <img src="../img/nuevas/Caballo-4.jpg" class="card-img-top mx-auto" alt="..." style="width: 250px; height: 250px; object-fit: cover;">
+                    <div class="portfolio-card">
+                        <img src="../img/Eventos/comunion1.jpeg" class="portfolio-image" alt="Primera comunión">
                     </div>
                 </div>
                 <div class="col-6 col-sm-6 col-md-3 my-4">
-                    <div class="card border-0 bg-transparent text-center">
-                        <img src="../img/15-matri-festi/15 NUEVA.jpg" class="card-img-top mx-auto" alt="..." style="width: 250px; height: 250px; object-fit: cover;">
+                    <div class="portfolio-card">
+                        <img src="../img/Eventos/comunion2.jpeg" class="portfolio-image" alt="Primera comunión">
                     </div>
                 </div>
                 <div class="col-6 col-sm-6 col-md-3 my-4">
-                    <div class="card border-0 bg-transparent text-center">
-                        <img src="../img/15-matri-festi/nueva 15.jpg" class="card-img-top mx-auto" alt="..." style="width: 250px; height: 250px; object-fit: cover;">
+                    <div class="portfolio-card">
+                        <img src="../img/nuevas/Caballo-4.jpg" class="portfolio-image" alt="Fotografía de caballo">
                     </div>
                 </div>
                 <div class="col-6 col-sm-6 col-md-3 my-4">
-                    <div class="card border-0 bg-transparent text-center">
-                        <img src="../img/15-matri-festi/matrimonio1.jpg" class="card-img-top mx-auto" alt="..." style="width: 250px; height: 250px; object-fit: cover;">
+                    <div class="portfolio-card">
+                        <img src="../img/15-matri-festi/15 NUEVA.jpg" class="portfolio-image" alt="Fiesta de 15 años">
                     </div>
                 </div>
                 <div class="col-6 col-sm-6 col-md-3 my-4">
-                    <div class="card border-0 bg-transparent text-center">
-                        <img src="../img/15-matri-festi/matrimonio2.jpeg" class="card-img-top mx-auto" alt="..." style="width: 250px; height: 250px; object-fit: cover;">
+                    <div class="portfolio-card">
+                        <img src="../img/15-matri-festi/nueva 15.jpg" class="portfolio-image" alt="Fiesta de 15 años">
                     </div>
                 </div>
                 <div class="col-6 col-sm-6 col-md-3 my-4">
-                    <div class="card border-0 bg-transparent text-center">
-                        <img src="../img/15-matri-festi/primaver-2.jpg" class="card-img-top mx-auto" alt="..." style="width: 250px; height: 250px; object-fit: cover;">
+                    <div class="portfolio-card">
+                        <img src="../img/15-matri-festi/matrimonio1.jpg" class="portfolio-image" alt="Matrimonio">
                     </div>
                 </div>
                 <div class="col-6 col-sm-6 col-md-3 my-4">
-                    <div class="card border-0 bg-transparent text-center">
-                        <img src="../img/15-matri-festi/primaver.jpg" class="card-img-top mx-auto" alt="..." style="width: 250px; height: 250px; object-fit: cover;">
+                    <div class="portfolio-card">
+                        <img src="../img/15-matri-festi/matrimonio2.jpeg" class="portfolio-image" alt="Matrimonio">
                     </div>
                 </div>
                 <div class="col-6 col-sm-6 col-md-3 my-4">
-                    <div class="card border-0 bg-transparent text-center">
-                        <img src="../img/15-matri-festi/tania1.jpg" class="card-img-top mx-auto" alt="..." style="width: 250px; height: 250px; object-fit: cover;">
+                    <div class="portfolio-card">
+                        <img src="../img/15-matri-festi/primaver-2.jpg" class="portfolio-image" alt="Fiesta de primavera">
                     </div>
                 </div>
                 <div class="col-6 col-sm-6 col-md-3 my-4">
-                    <div class="card border-0 bg-transparent text-center">
-                        <img src="../img/15-matri-festi/tania2.jpg" class="card-img-top mx-auto" alt="..." style="width: 250px; height: 250px; object-fit: cover;">
+                    <div class="portfolio-card">
+                        <img src="../img/15-matri-festi/primaver.jpg" class="portfolio-image" alt="Fiesta de primavera">
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-3 my-4">
+                    <div class="portfolio-card">
+                        <img src="../img/15-matri-festi/tania1.jpg" class="portfolio-image" alt="Retrato de Tania">
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-3 my-4">
+                    <div class="portfolio-card">
+                        <img src="../img/15-matri-festi/tania2.jpg" class="portfolio-image" alt="Retrato de Tania">
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 my-4">
-                    <div class="card border-0 bg-transparent text-center">
-                        <img src="../img/15-matri-festi/laura1.jpg" class="card-img-top mx-auto" alt="..." style="width: 250px; height: 250px; object-fit: cover;">
+                    <div class="portfolio-card">
+                        <img src="../img/15-matri-festi/laura1.jpg" class="portfolio-image" alt="Retrato de Laura">
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 my-4">
-                    <div class="card border-0 bg-transparent text-center">
-                        <img src="../img/15-matri-festi/laura2.jpg" class="card-img-top mx-auto" alt="..." style="width: 250px; height: 250px; object-fit: cover;">
+                    <div class="portfolio-card">
+                        <img src="../img/15-matri-festi/laura2.jpg" class="portfolio-image" alt="Retrato de Laura">
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 my-4">
-                    <div class="card border-0 bg-transparent text-center">
-                        <img src="../img/15-matri-festi/15 2.jpg" class="card-img-top mx-auto" alt="..." style="width: 250px; height: 250px; object-fit: cover;">
+                    <div class="portfolio-card">
+                        <img src="../img/15-matri-festi/15 2.jpg" class="portfolio-image" alt="Fiesta de 15 años">
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 my-4">
-                    <div class="card border-0 bg-transparent text-center">
-                        <img src="../img/15-matri-festi/15.jpeg" class="card-img-top mx-auto" alt="..." style="width: 250px; height: 250px; object-fit: cover;">
+                    <div class="portfolio-card">
+                        <img src="../img/15-matri-festi/15.jpeg" class="portfolio-image" alt="Fiesta de 15 años">
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 my-4">
-                    <div class="card border-0 bg-transparent text-center">
-                        <img src="../img/nuevas/Caballo-1.jpg" class="card-img-top mx-auto" alt="..." style="width: 250px; height: 250px; object-fit: cover;">
+                    <div class="portfolio-card">
+                        <img src="../img/nuevas/Caballo-1.jpg" class="portfolio-image" alt="Fotografía de caballo">
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- Redes sociales y derechos reservados -->
-    <!-- Footer -->
-    <footer class=" bg-blue text-white text-center py-4 mt-5 ">
-        <div class="container">
-            <p class="mb-1 fst-italic text-dark">&copy; FotoMontajesDumbo</p>
-            <a href="https://www.facebook.com/share/16TSfCZHGQ/?mibextid=wwXIfr" target="_blank" class="text-dark">Facebook</a>     
-            <p class="mb-0  fst-italic text">
-              
-            </p>
-        </div>
-    </footer>
+        <!-- Footer -->
+        <footer class="footer-section text-center py-4 mt-5">
+            <div class="container">
+                <p class="mb-1">&copy; FotoMontajesDumbo</p>
+                <a href="https://www.facebook.com/share/16TSfCZHGQ/?mibextid=wwXIfr" target="_blank">Facebook</a>     
+            </div>
+        </footer>
     </div>
             <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-lg">
